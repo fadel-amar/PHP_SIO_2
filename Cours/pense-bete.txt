@@ -8,7 +8,7 @@ symfony new project nomProjet --webApp --> installation symfony dans notre proje
 symfony console about : PS C:\Users\omarf\Documents\SIO2_DEV\PHP_SIO_2\Projets\Symfony\symfony-projet> symfony console about
 
 symfony server:start -d  -> lancer le serveuur symfony ///  symfony serve -d
-symfony server:stop -> arreter le serveur
+symfony server:stop -> arreter le serveur existant
 
 
 
