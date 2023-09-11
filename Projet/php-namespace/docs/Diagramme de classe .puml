@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+
+skinparam classAttributeIconSize 0
+
+class Championnat {
+- nom: string
++ ajouterEquipe(equipe: Equipe) : void
++ getNombreEquipes() :int
+}
+
+class Equipe {
+- nom: string
+-nombreLikes : integer
++ incrementerNombreLike(): void
+}
+
+class Joueur {
+- nom
+-prenom
+-poste
+}
+
+
+Championnat -->"0..*" Equipe
+
+
+
+
+@enduml
