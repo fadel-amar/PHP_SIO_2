@@ -1,0 +1,10 @@
+scoop -> gestionnaire de paquets windows
+déziper symfony mettre dans un docuets utilis puis dossir symfony cli 
+
+symfony check:requirements  -> vérification de l'environement smfony
+symfony new project nomProjet --webApp --> installation symfony dans notre projet 
+
+
+
+
+
