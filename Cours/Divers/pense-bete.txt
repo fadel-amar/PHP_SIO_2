@@ -10,6 +10,7 @@ symfony console about : PS C:\Users\omarf\Documents\SIO2_DEV\PHP_SIO_2\Projets\S
 symfony server:start -d  -> lancer le serveuur symfony ///  symfony serve -d
 symfony server:stop -> arreter le serveur existant
 
+symfony console make:controller NomControleur
 
 
 
