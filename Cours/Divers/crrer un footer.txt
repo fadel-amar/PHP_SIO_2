@@ -1,0 +1,8 @@
+crrer un footer 
+mettre un peu de style 
+
+ creer la page d'acceuil  du site = localhosst : 8000
+
+
+Inserer la navigation un lien vers la page d'acceuil 
+

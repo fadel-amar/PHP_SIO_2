@@ -12,6 +12,7 @@ symfony server:stop -> arreter le serveur existant
 
 symfony console make:controller NomControleur
 
+Symfony console debug:route
 
 
 
