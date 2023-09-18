@@ -22,3 +22,7 @@ symfony console doctrine:migration:migrate    //
 
 chez moi database url 
 exécuter toutes les migrations 
+
+Fixtrure -> jeu de donées  
+ 	composer require orm-fixtures --dev
+	symfony console make:fixtures EtudiantFixtures
