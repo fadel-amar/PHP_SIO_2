@@ -14,8 +14,11 @@ symfony console make:controller NomControleur
 
 Symfony console debug:route
 
+symfony console doctrine:database:create //
 
+symfony console make:entity NomEntity
+symfony console make:migration
+symfony console doctrine:migration:migrate    //
 
-
-
-
+chez moi database url 
+exécuter toutes les migrations 
