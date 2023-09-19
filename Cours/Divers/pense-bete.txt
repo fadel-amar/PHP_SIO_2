@@ -26,3 +26,4 @@ exécuter toutes les migrations
 Fixtrure -> jeu de donées  
  	composer require orm-fixtures --dev
 	symfony console make:fixtures EtudiantFixtures
+	symfony console doctrine:fixtures:load   -> charger les fixtures dans la bdd
