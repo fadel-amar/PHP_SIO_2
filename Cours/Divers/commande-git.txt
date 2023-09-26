@@ -1,0 +1,20 @@
+git int
+git status 
+git add .
+git commit -m "message"
+git log : --> historique commit
+git brach -> listes de branches / savoir dans quel branch on est
+git brach -M main --> renommer la branche principale #c'était master maintenant main#
+
+## On ne développe jamais dans la branche Main
+## Chaque nouveau development doit être réalisé dans une nouvelle branche
+
+git branch nomBranch : créer une nouvelle branch
+git checkout nomBranch : Basculer dans une autre branche
+
+## Apres avoir fini ma fonctionnalité qui est parfaite sur ma branche, on fusionne les branches dans main (principale)
+positioner sur la main puis faire : git merge nombranch à fusionner
+
+Maintenant, on supprime la branch apres avoir fusionné : git -d nombranch
+
+git branch -D new : Supprimer la branch sans merger (fusionner les deux branches)
