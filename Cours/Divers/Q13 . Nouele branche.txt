@@ -1,0 +1,31 @@
+Q13 . Nouele branche 
+	add
+	commit
+	push 
+	
+vueMenu Admin
+
+class vue_menu_Administration {
+
+private string $typeConnexion
+
+public funcrtion __construct ( string $typeconnexion = "UtilisateurCafe") {
+
+	$this->type Conexion = $typeConnexion ;
+	
+
+
+
+
+}}
+
+
+
+
+fucntion donne texte {
+
+
+
+switch ($this->typeConnexion) 
+	{
+	case  
