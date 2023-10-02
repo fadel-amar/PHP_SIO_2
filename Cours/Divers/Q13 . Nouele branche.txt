@@ -28,4 +28,4 @@ fucntion donne texte {
 
 switch ($this->typeConnexion) 
 	{
-	case  
+	case  gs
