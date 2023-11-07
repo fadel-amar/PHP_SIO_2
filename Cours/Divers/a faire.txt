@@ -1,0 +1,3 @@
+java -jar  .\utils\shemaSpy\schemaspy.jar -t mariadb -dp .\utils\shemaSpy\mariadb.jar -db db_biblio -host localhost -port 3306 -s db_biblio -u root -o  .\documentation\shemaSpy
+
+java -jar schemaspy.jar -t dbType -dp C:/sqljdbc4-3.0.jar -db dbName -host server -port 1433 [-s schema] -u user [-p password] -o outputDir
