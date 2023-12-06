@@ -28,6 +28,8 @@ Fixtrure -> jeu de donées
 	symfony console make:fixtures EtudiantFixtures
 	symfony console doctrine:fixtures:load   -> charger les fixtures dans la bdd
 
+ composer require --dev orm-fixtures 
+
 
 1 créer entité promotion, créer la relation entre éttudiant, créer le fichier migraton et faire la migration/ 
 Faire une fixture pour promotion
