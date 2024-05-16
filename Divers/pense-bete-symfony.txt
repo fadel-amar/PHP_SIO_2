@@ -35,3 +35,10 @@ Fixtrure -> jeu de donées
 Faire une fixture pour promotion
 Pour notre cas on doit faire une fixture de donnée de promotion avan tétudiant (ordre INSERT) 
 
+public
+
+openssl genpkey -out config/jwt/private.pem -aes256 -algorithm rsa -pkeyopt rsa_keygen_bits:4096
+
+prive
+prive openssl rsa -pubout -in config/jwt/private.pem -out config/jwt/public.pem
+
